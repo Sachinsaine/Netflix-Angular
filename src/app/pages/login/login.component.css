@@ -1,0 +1,7 @@
+.sing-container {
+  background: rgba(0, 0, 0, 0.6);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  color: #fff;
+  border: rgba(0, 0, 0, 0.1);
+  border-radius: 2px;
+}

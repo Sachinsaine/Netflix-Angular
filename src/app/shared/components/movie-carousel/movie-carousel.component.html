@@ -1,0 +1,36 @@
+<div class="my-3 my-4">
+  <h3 class="display-1 fs-4 ms-3">Popular Movies</h3>
+  <div class="d-flex flex align-items-center mb-3">
+    <div *ngFor="let i of popularMovies">
+      <div class="mx-3 my-4">
+        <div class="card-img">
+          <a href="{{ i.urlPath }}" target="_blank">
+            <img
+              src="{{ i.imagePath }}"
+              id="img-style"
+              class="rounded-1"
+              alt=""
+            />
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <h3 class="display-1 fs-4 ms-3">Trending TV Shows</h3>
+  <div class="d-flex flex align-items-center">
+    <div *ngFor="let i of tvShows">
+      <div class="mx-3 my-4">
+        <div class="card-img">
+          <a href="{{ i.urlPath }}" target="_blank">
+            <img
+              src="{{ i.imagePath }}"
+              id="img-style"
+              class="rounded-1"
+              alt=""
+            />
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

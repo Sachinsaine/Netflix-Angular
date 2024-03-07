@@ -1,0 +1,37 @@
+<div class="bg-main sticky-top top-0 d-flex w-100">
+  <div class="container-main">
+    <div class="d-flex align-items-center ms-3">
+      <img
+        src="/assets/netflix-logo.jpg"
+        alt="netflix-logo"
+        class="cursor-pointer"
+        routerLink="/"
+      />
+
+      <ul class="" *ngFor="let i of navbarList">
+        <li
+          class="text-neutral-300 cursor-pointer text-sm font-extralight hover:text-gray-400 transition-[1s] mt-3"
+        >
+          {{ i }}
+        </li>
+      </ul>
+    </div>
+    <div
+      class="text-white me-3 text-end d-flex align-items-center justify-content-center"
+    >
+      <a href="" class="text-decoration-none text-white fs-6 display-1"
+        ><span>Welcome &nbsp;<strong class="me-2">Ronnie</strong></span></a
+      >
+      <img
+        src="{{ userImg }}"
+        class="cursor-pointer"
+        alt="userProfile"
+        style="border-radius: 50%"
+      />
+      &nbsp; | &nbsp;
+      <a href="/" class="text-white text-decoration-none fs-6 display-1"
+        >SignOut</a
+      >
+    </div>
+  </div>
+</div>

@@ -1,0 +1,15 @@
+.bg-main {
+  height: 70px;
+  z-index: 10;
+}
+.container-main {
+  background: #000000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.container-main img {
+  height: 40px;
+}
